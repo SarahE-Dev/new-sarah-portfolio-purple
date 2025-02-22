@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../../constants/styles";
 import { navLinks } from "../../constants";
-import { logo, menu, close } from "../../assets";
+import { menu, close, web} from "../../assets";
 import { config } from "../../constants/config";
 
 const Navbar = () => {
@@ -52,11 +52,11 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } fixed top-0 z-20 flex w-full items-center py-5 ${
+      } fixed top-0 z-20 flex w-screen max-w-full items-center py-5 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex w-full max-w-7xl items-center justify-between">
+      <div className="mx-auto flex w-full max-w-full items-center justify-between">
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -64,7 +64,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
+          <img src={web} alt="logo" className="h-9 w-9 object-contain" />
           <p className="flex cursor-pointer text-[18px] font-bold text-white ">
             {config.html.title}
           </p>

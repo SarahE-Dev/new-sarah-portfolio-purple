@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bluezack from "./bluezack.png";
+import fyretunes from "./fyretunes.png"
+import articleElevator from "./articleelevator.png"
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  bluezack,
+  fyretunes,
+  articleElevator
 };

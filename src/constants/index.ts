@@ -8,7 +8,6 @@ import type {
 } from "../types";
 
 import {
-  mobile,
   backend,
   creator,
   web,
@@ -24,14 +23,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  bluezack,
+  fyretunes,
+  articleElevator
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -51,19 +45,15 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Front End Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Solutions",
     icon: creator,
   },
 ];
@@ -106,10 +96,6 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -125,58 +111,53 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Front End Developer Intern",
+    companyName: "UpUnikSelf",
+    icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAMAAAA2a+hwAAAAhFBMVEUCIl4AFlkADlYAGFoAHlwAE1h7hJ6fprqborZlcJEAAFMnO27KztlqdJMnPG+Ikqu8wtC2vMsPKWMAIF0AGlpfa42Sm7GttsgACVUcNGne4egAAE+pscQAC1Xs7/P///83SXbQ1N0xQ3KKlK0TLWUAAEPz9PZTYIZKWYEAAEpYZIhGVH2iYLLXAAABTklEQVR4AYXRB7aCQAxA0WEKJYiUiRClxN7+/tdnRwd+ewrknEtHPPPkICU+aeMHbmEEH4snSew2TTPZI+SFsY/wudUwK80LbQX9KRLV708vmwevk8hyUT8natox1h0v8TG139CLmHP4BesVMxf2R8Q13yrld7RSQHPHrrZjtG1AcJOceeaNUfqbbcqd2eW8qkdIU79IFsxptGde4xDrDULDryoYIqQGJtyHdoDLSKlDbwEJF8NkqetNjyuwQ5xSyvxWOcBoqdjJNw4GcSLXnD4l6yoYPYo0h+OEF4s9H8sTWnIQ/LVGeeDdKVglm/Q41Q62JpT3TwbUHEhSUtUOSr0OCfGAePYQZimQiwLn4dnUxpD5Kmdk2zdu75Om82aTpukm8pQQUJF4BtnjA6NRRaGMus04f6OKKlWTE8STWItX8pBXw2IU75CGtVr82xV67y8AkRQMiwAAAABJRU5ErkJggg==",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2024 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Improved user engagement by 30% through responsive design optimizations for mobile and desktop platforms using React and Tailwind CSS.",
+      "Collaborated with a team of 15 developers to build scalable React components, achieving a 95% approval rate from senior developers and stakeholders.",
+      "Implemented React Hooks and standardized styling to reduce inconsistencies, enhancing code maintainability and overall user experience.",
+      "Resolved cross-platform compatibility issues, ensuring consistent performance and accessibility across all devices and browsers by conducting thorough testing and optimizations."
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Mentor & Volunteer",
+    companyName: "Persevere",
+    icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAP1BMVEVgvsRgv8VhwcZcrrZXmKJetr1KXW5MY3Napa5Wk55JVmdJVWdKW2xMZnVhw8hYm6RMaXhbqrJeuL9bq7JVkJofWlQnAAAAcklEQVR4AbXSsQ6AIBRDUQFQFVBE//9bTVhsu6gDJ2xd3k0YejJWGNicF+FZrR/ZNMO4rCQmHRGOxueJZBzDLAKeuwmLKYtwlJLI+HYtjhFwyl4yKZRyiCopyGLKeYnvKamdu7YXf6YUwCnViYofTA093Zr1Dxs7tp6yAAAAAElFTkSuQmCC",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2023 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively mentor aspiring developers by providing code reviews and project guidance.",
+      "Enhance learning outcomes by sharing industry insights, teaching best practices, and fostering a collaborative learning environment."
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Software Engineering Student",
+    companyName: "Justice Through Code, Columbia University",
+    icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIXb062aAAAAEHRSTlMAMQ63UiH/3GeQ7XfKpUaaWtzHkgAAAOVJREFUeAFjIAYwKqBwhZ2QeaxmFchcpvaJKIrDHVBkzZbAmaFBDKxl2UA6FMSVPGO7T+FaIaOnzWEnoOTnls7Lt82qJ9tv8bQDOuAcA0PI97QsayEGpp8KDIwHgRr009IFgNR+KJdlWTLImPkKDKzWINOPgSxitACy9gYwOjB8K2SQU+A2BLl+k+ySgG2HFO84xWwAcrkP7lnTsO2Q7HLTzQIgHedFjAWuFWpXi1SDHTnroo3HslzJJV6FYEdvy0pblpa2LCutCMyNc4ECATD3RQcUNIG5s1ZBwVEwVwSm+BEDaQAA6NVKUoxY5bUAAAAASUVORK5CYII=",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2024 – Expected: July 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Studying full stack development, data science fundamentals, and advanced topics including Artificial Intelligence (AI), MLOps, and serverless computing.",
+      "Participating in real-world projects and gaining hands-on experience in building scalable web applications."
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    title: "Full Stack Software Development Certification",
+    companyName: "Persevere",
+    icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAP1BMVEVgvsRgv8VhwcZcrrZXmKJetr1KXW5MY3Napa5Wk55JVmdJVWdKW2xMZnVhw8hYm6RMaXhbqrJeuL9bq7JVkJofWlQnAAAAcklEQVR4AbXSsQ6AIBRDUQFQFVBE//9bTVhsu6gDJ2xd3k0YejJWGNicF+FZrR/ZNMO4rCQmHRGOxueJZBzDLAKeuwmLKYtwlJLI+HYtjhFwyl4yKZRyiCopyGLKeYnvKamdu7YXf6YUwCnViYofTA093Zr1Dxs7tp6yAAAAAElFTkSuQmCC",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2023 – May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed comprehensive training in full stack development with hands-on projects like Fyre Tunes and BlueZack.",
+      "Gained expertise in API integration, responsive web design, and agile development practices."
     ],
   },
 ];
+
 
 const testimonials: TTestimonial[] = [
   {
@@ -202,72 +183,80 @@ const testimonials: TTestimonial[] = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
+
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Bluezack",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A YouTube clone built with the MERN stack. Users can search for videos, watch them, and interact through comments. The app integrates with the official YouTube API for fetching video data.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "youtube-api",
+        color: "purple-text-gradient",
+      },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: bluezack, 
+    sourceCodeLink: "https://github.com/your-username/bluezack", 
+    liveDemoLink: "https://bluezack.saraheatherly.dev", 
   },
   {
-    name: "Job IT",
+    name: "Fyre Tunes",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A music app that integrates with the Spotify API. Users can search for tracks, view detailed album information, and create custom playlists based on their preferences.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "spotify-api",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: fyretunes,
+    sourceCodeLink: "https://github.com/your-username/fyretunes", 
+    liveDemoLink: "https://fyretunes.saraheatherly.dev",
   },
   {
-    name: "Trip Guide",
+    name: "Article Elevator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Next.js app for creating and managing articles. It allows users to write, edit, and organize articles with a clean and minimalistic interface.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: articleElevator, 
+    sourceCodeLink: "https://github.com/your-username/articleelevator", 
+    liveDemoLink: "https://internship-project-cyan-nu.vercel.app/",
   },
 ];
 

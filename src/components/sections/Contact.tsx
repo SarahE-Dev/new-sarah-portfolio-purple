@@ -35,35 +35,45 @@ const Contact = () => {
     if (e === undefined) return;
     e.preventDefault();
     setLoading(true);
-
+  
+    // Validate form fields (ensure they're not empty)
+    if (!form.name || !form.email || !form.message) {
+      setLoading(false);
+      alert("Please fill out all required fields.");
+      return;
+    }
+  
+    // Ensure `reply_to` is sent (you can use form.email as the reply_to)
+    const emailData = {
+      from_name: form.name,
+      to_name: config.html.fullName,
+      from_email: form.email,
+      to_email: config.html.email,
+      message: form.message,
+      reply_to: form.email, // Make sure reply_to is included
+    };
+  
     emailjs
       .send(
         emailjsConfig.serviceId,
         emailjsConfig.templateId,
-        {
-          form_name: form.name,
-          to_name: config.html.fullName,
-          from_email: form.email,
-          to_email: config.html.email,
-          message: form.message,
-        },
+        emailData,
         emailjsConfig.accessToken
       )
       .then(
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
-
           setForm(INITIAL_STATE);
         },
         (error) => {
           setLoading(false);
-
           console.log(error);
           alert("Something went wrong.");
         }
       );
   };
+  
 
   return (
     <div
