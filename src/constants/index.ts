@@ -211,7 +211,7 @@ const projects: TProject[] = [
       },
     ],
     image: bluezack, 
-    sourceCodeLink: "https://github.com/your-username/bluezack", 
+    sourceCodeLink: "https://github.com/SarahE-Dev/youtube-frontend", 
     liveDemoLink: "https://bluezack.saraheatherly.dev", 
   },
   {
@@ -233,7 +233,7 @@ const projects: TProject[] = [
       },
     ],
     image: fyretunes,
-    sourceCodeLink: "https://github.com/your-username/fyretunes", 
+    sourceCodeLink: "https://github.com/SarahE-Dev/midterm-react-front-end", 
     liveDemoLink: "https://fyretunes.saraheatherly.dev",
   },
   {
@@ -255,7 +255,7 @@ const projects: TProject[] = [
       },
     ],
     image: articleElevator, 
-    sourceCodeLink: "https://github.com/your-username/articleelevator", 
+    sourceCodeLink: "https://github.com/SarahE-Dev/internship-project", 
     liveDemoLink: "https://internship-project-cyan-nu.vercel.app/",
   },
 ];
