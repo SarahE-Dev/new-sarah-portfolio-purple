@@ -25,7 +25,8 @@ import {
   docker,
   bluezack,
   fyretunes,
-  articleElevator
+  articleElevator,
+  wishlist
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -257,6 +258,28 @@ const projects: TProject[] = [
     image: articleElevator, 
     sourceCodeLink: "https://github.com/SarahE-Dev/internship-project", 
     liveDemoLink: "https://internship-project-cyan-nu.vercel.app/",
+  },
+  {
+    name: "Wishlist Tracker",
+    description:
+      "Wishlist Tracker is a Tailwind CSS styled React app with an Express.js backend and MongoDB Atlas Database, allowing users to manage wishlist items securely with JWT authentication.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wishlist, 
+    sourceCodeLink: "https://github.com/SarahE-Dev/wishlist-frontend", 
+    liveDemoLink: "https://wishlist-frontend-pink.vercel.app/",
   },
 ];
 

@@ -32,6 +32,7 @@ import tripguide from "./tripguide.png";
 import bluezack from "./bluezack.png";
 import fyretunes from "./fyretunes.png"
 import articleElevator from "./articleelevator.png"
+import wishlist from './wishlist.png'
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   tripguide,
   bluezack,
   fyretunes,
-  articleElevator
+  articleElevator,
+  wishlist
 };
