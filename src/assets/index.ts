@@ -33,6 +33,7 @@ import bluezack from "./bluezack.png";
 import fyretunes from "./fyretunes.png"
 import articleElevator from "./articleelevator.png"
 import wishlist from './wishlist.png'
+import neonlink from './neonlink.png'
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   bluezack,
   fyretunes,
   articleElevator,
-  wishlist
+  wishlist,
+  neonlink
 };

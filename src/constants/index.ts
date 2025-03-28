@@ -26,7 +26,8 @@ import {
   bluezack,
   fyretunes,
   articleElevator,
-  wishlist
+  wishlist,
+  neonlink
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -206,10 +207,6 @@ const projects: TProject[] = [
         name: "mongodb",
         color: "pink-text-gradient",
       },
-      {
-        name: "youtube-api",
-        color: "purple-text-gradient",
-      },
     ],
     image: bluezack, 
     sourceCodeLink: "https://github.com/SarahE-Dev/youtube-frontend", 
@@ -251,13 +248,35 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "eldoraui",
         color: "pink-text-gradient",
       },
     ],
     image: articleElevator, 
     sourceCodeLink: "https://github.com/SarahE-Dev/internship-project", 
     liveDemoLink: "https://internship-project-cyan-nu.vercel.app/",
+  },
+  {
+    name: "Neon Link",
+    description:
+      "A Next.js-powered chat application featuring a sleek, futuristic cyberpunk-inspired front-end design.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: neonlink, 
+    sourceCodeLink: "https://github.com/SarahE-Dev/neonlink", 
+    liveDemoLink: "https://neonlink-chi.vercel.app",
   },
   {
     name: "Wishlist Tracker",
@@ -269,7 +288,7 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
