@@ -26,7 +26,6 @@ import {
   bluezack,
   fyretunes,
   articleElevator,
-  wishlist,
   neonlink
 } from "../assets";
 
@@ -277,28 +276,6 @@ const projects: TProject[] = [
     image: neonlink, 
     sourceCodeLink: "https://github.com/SarahE-Dev/neonlink", 
     liveDemoLink: "https://neonlink-chi.vercel.app",
-  },
-  {
-    name: "Wishlist Tracker",
-    description:
-      "Wishlist Tracker is a Tailwind CSS styled React app with an Express.js backend and MongoDB Atlas Database, allowing users to manage wishlist items securely with JWT authentication.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: wishlist, 
-    sourceCodeLink: "https://github.com/SarahE-Dev/wishlist-frontend", 
-    liveDemoLink: "https://wishlist-frontend-pink.vercel.app/",
   },
 ];
 
