@@ -34,6 +34,7 @@ import fyretunes from "./fyretunes.png"
 import articleElevator from "./articleelevator.png"
 import wishlist from './wishlist.png'
 import neonlink from './neonlink.png'
+import momswatchlist from './moms-watchlist.png'
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   fyretunes,
   articleElevator,
   wishlist,
-  neonlink
+  neonlink,
+  momswatchlist
 };
