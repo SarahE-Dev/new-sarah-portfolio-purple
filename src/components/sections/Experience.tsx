@@ -10,6 +10,7 @@ import { SectionWrapper } from "../../hoc";
 import { Header } from "../atoms/Header";
 import { TExperience } from "../../types";
 import { config } from "../../constants/config";
+import ResumePDF from "../../assets/SARAHERESUME.pdf";
 
 interface ExperienceCardProps extends TExperience {
   index: number;
@@ -117,7 +118,7 @@ const Experience = () => {
       </div>
       <div className="mt-20 flex justify-center">
         <motion.a
-          href="https://docs.google.com/document/d/1YrQ7RJELXeyKyP1DXocmnWFnikgDp3Pc/edit?usp=sharing&ouid=118371788299299392953&rtpof=true&sd=true"
+          href={ResumePDF}
           className="bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-500 hover:from-purple-700 hover:via-indigo-600 hover:to-blue-600 transition-all duration-300 text-white py-3 px-8 rounded-lg font-medium shadow-lg"
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.95 }}
