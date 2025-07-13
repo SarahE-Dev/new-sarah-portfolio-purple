@@ -8,7 +8,10 @@ const SocialGlassyBar: React.FC = () => {
   return (
     <div
       className="
-        fixed bottom-6 right-6 z-50 flex gap-4 p-[3px]
+        fixed bottom-2 right-2
+        sm:bottom-4 sm:right-4
+        md:bottom-6 md:right-6
+        z-50 flex gap-4 p-[3px]
         rounded-2xl
         bg-gradient-to-br from-cyan-400 via-purple-600 to-fuchsia-500
         shadow-2xl
@@ -27,10 +30,12 @@ const SocialGlassyBar: React.FC = () => {
         >
           <FaGithub
             className="
-              w-7 h-7 sm:w-7 sm:h-7 md:w-8 md:h-8
-              text-cyan-300 group-hover:text-fuchsia-400
+              w-6 h-6
+              sm:w-7 sm:h-7
+              md:w-8 md:h-8
+              text-cyan-300 group-hover:text-purple-400
               transition-all duration-200
-              drop-shadow-[0_0_10px_#a21caf99]
+              drop-shadow-[0_0_14px_#a21caf99]
             "
           />
         </a>
@@ -43,10 +48,12 @@ const SocialGlassyBar: React.FC = () => {
         >
           <FaLinkedin
             className="
-              w-7 h-7 sm:w-7 sm:h-7 md:w-8 md:h-8
-              text-cyan-300 group-hover:text-fuchsia-400
+              w-6 h-6
+              sm:w-7 sm:h-7
+              md:w-8 md:h-8
+              text-cyan-300 group-hover:text-purple-400
               transition-all duration-200
-              drop-shadow-[0_0_10px_#a21caf99]
+              drop-shadow-[0_0_14px_#a21caf99]
             "
           />
         </a>
