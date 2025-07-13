@@ -169,7 +169,7 @@ const experiences: TExperience[] = [
     companyName: "Justice Through Code, Columbia University",
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEwWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIUWSIXb062aAAAAEHRSTlMAMQ63UiH/3GeQ7XfKpUaaWtzHkgAAAOVJREFUeAFjIAYwKqBwhZ2QeaxmFchcpvaJKIrDHVBkzZbAmaFBDKxl2UA6FMSVPGO7T+FaIaOnzWEnoOTnls7Lt82qJ9tv8bQDOuAcA0PI97QsayEGpp8KDIwHgRr009IFgNR+KJdlWTLImPkKDKzWINOPgSxitACy9gYwOjB8K2SQU+A2BLl+k+ySgG2HFO84xWwAcrkP7lnTsO2Q7HLTzQIgHedFjAWuFWpXi1SDHTnroo3HslzJJV6FYEdvy0pblpa2LCutCMyNc4ECATD3RQcUNIG5s1ZBwVEwVwSm+BEDaQAA6NVKUoxY5bUAAAAASUVORK5CYII=",
     iconBg: "#383E56",
-    date: "September 2024 – Expected: July 2025",
+    date: "September 2024 – June 2025",
     points: [
       "Advanced coursework in full stack development, data science fundamentals, and cutting-edge AI technologies",
       "Specialized training in Artificial Intelligence (AI), Machine Learning Operations (MLOps), and serverless computing",
