@@ -12,6 +12,7 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
+import SocialGlassyBar from "./components/SocialGlassyBar.tsx";
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+        <SocialGlassyBar />
         <About />
         <Experience />
         <Tech />
