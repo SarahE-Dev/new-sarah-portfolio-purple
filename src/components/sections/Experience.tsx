@@ -114,18 +114,6 @@ const Experience = () => {
     <>
       <Header useMotion={true} {...config.sections.experience} />
       <div className="mt-20 flex flex-col" ref={ref}>
-        <motion.div
-          style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            right: 0,
-            height: '5px',
-            background: '#915EFF',
-            scaleX: scaleProgress,
-            transformOrigin: '0%',
-          }}
-        />
         <VerticalTimeline animate={true} lineColor="#915EFF">
           {experiences.map((experience, index) => (
             <ExperienceCard
