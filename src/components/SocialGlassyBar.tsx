@@ -8,10 +8,10 @@ const SocialGlassyBar: React.FC = () => {
   return (
     <div
       className="
-        fixed bottom-6 left-4
-        sm:bottom-4 sm:left-4
-        md:bottom-6 md:left-6
-        z-50 flex gap-2
+        fixed bottom-6 right-4
+        sm:bottom-4 sm:right-4
+        md:bottom-6 md:right-6
+        z-[100] flex gap-2
         sm:gap-3
         md:gap-4
         p-[2px]
