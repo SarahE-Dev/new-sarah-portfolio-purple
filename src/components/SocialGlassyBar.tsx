@@ -14,7 +14,6 @@ const SocialGlassyBar: React.FC = () => {
         shadow-2xl
       "
       style={{
-        // Subtle outer glow
         boxShadow: "0 4px 40px 0 rgba(109, 40, 217, 0.35), 0 0 0 4px #0ff2",
       }}
     >
@@ -24,16 +23,14 @@ const SocialGlassyBar: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className="group"
+          className="group flex items-center justify-center"
         >
           <FaGithub
             className="
               w-7 h-7 sm:w-7 sm:h-7 md:w-8 md:h-8
-              text-transparent bg-clip-text
-              bg-gradient-to-br from-cyan-400 via-purple-400 to-fuchsia-400
-              group-hover:from-white group-hover:to-purple-300
+              text-cyan-300 group-hover:text-fuchsia-400
               transition-all duration-200
-              drop-shadow-[0_0_16px_#a21caf99]
+              drop-shadow-[0_0_10px_#a21caf99]
             "
           />
         </a>
@@ -42,16 +39,14 @@ const SocialGlassyBar: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
-          className="group"
+          className="group flex items-center justify-center"
         >
           <FaLinkedin
             className="
               w-7 h-7 sm:w-7 sm:h-7 md:w-8 md:h-8
-              text-transparent bg-clip-text
-              bg-gradient-to-br from-cyan-400 via-purple-400 to-fuchsia-400
-              group-hover:from-white group-hover:to-purple-300
+              text-cyan-300 group-hover:text-fuchsia-400
               transition-all duration-200
-              drop-shadow-[0_0_16px_#a21caf99]
+              drop-shadow-[0_0_10px_#a21caf99]
             "
           />
         </a>
