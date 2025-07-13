@@ -9,7 +9,7 @@ const SocialGlassyBar: React.FC = () => {
   return (
     <div
       className="
-        fixed bottom-3 right-3
+        fixed bottom-6 right-4
         sm:bottom-4 sm:right-4
         md:bottom-6 md:right-6
         z-50 flex gap-2
