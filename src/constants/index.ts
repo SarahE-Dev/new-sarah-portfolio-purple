@@ -26,7 +26,8 @@ import {
   bluezack,
   fyretunes,
   articleElevator,
-  neonlink
+  neonlink,
+  momswatchlist
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -314,7 +315,7 @@ const projects: TProject[] = [
       },
       
     ],
-    image: neonlink, 
+    image: momswatchlist, 
     sourceCodeLink: "https://github.com/SarahE-Dev/moms-watchlist-app", 
     liveDemoLink: "https://moms-watchlist-app.vercel.app",
   },
