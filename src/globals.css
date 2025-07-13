@@ -19,6 +19,11 @@
   display: block;
 }
 
+.drop-shadow-glow {
+  filter: drop-shadow(0 0 8px #a78bfa) drop-shadow(0 0 12px #c084fc80);
+}
+
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
