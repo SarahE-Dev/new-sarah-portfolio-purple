@@ -207,3 +207,13 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+
+div[style*="position: fixed"][style*="top: 0px"][style*="height: 5px"] {
+  display: none !important;
+}
+
+/* Or more specific */
+div[style*="background: rgb(145, 94, 255)"] {
+  display: none !important;
+}
