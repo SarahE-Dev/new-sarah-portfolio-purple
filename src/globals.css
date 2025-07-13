@@ -209,11 +209,4 @@
 }
 
 
-div[style*="position: fixed"][style*="top: 0px"][style*="height: 5px"] {
-  display: none !important;
-}
 
-/* Or more specific */
-div[style*="background: rgb(145, 94, 255)"] {
-  display: none !important;
-}
