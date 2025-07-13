@@ -58,7 +58,20 @@ const services: TService[] = [
     title: "Full Stack Solutions",
     icon: creator,
   },
+  {
+    title: "Project Management",
+    icon: web,
+  },
+  {
+    title: "AI Solutions",
+    icon: backend,
+  },
+  {
+    title: "Mobile Applications",
+    icon: creator,
+  },
 ];
+
 
 const technologies: TTechnology[] = [
   {
