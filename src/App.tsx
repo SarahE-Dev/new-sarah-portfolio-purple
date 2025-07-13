@@ -23,6 +23,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <div className="w-full max-w-[100vw] mx-auto overflow-x-hidden">
       <div className="bg-primary relative z-0 max-w-full">
         <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
           <Navbar />
@@ -39,6 +40,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
+        </div>
     </BrowserRouter>
   );
 };
