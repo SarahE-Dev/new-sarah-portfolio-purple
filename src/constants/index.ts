@@ -114,7 +114,7 @@ const experiences: TExperience[] = [
   {
   title: "Agile Project Lead & Software Engineer (AI Projects)",
   companyName: "Banyan Labs",
-  icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAMAAAA2a+hwAAAAhFBMVEUCIl4AFlkADlYAGFoAHlwAE1h7hJ6fprqborZlcJEAAFMnO27KztlqdJMnPG+Ikqu8wtC2vMsPKWMAIF0AGlpfa42Sm7GttsgACVUcNGne4egAAE+pscQAC1Xs7/P///83SXbQ1N0xQ3KKlK0TLWUAAEPz9PZTYIZKWYEAAEpYZIhGVH2iYLLXAAABTklEQVR4AYXRB7aCQAxA0WEKJYiUiRClxN7+/tdnRwd+ewrknEtHPPPkICU+aeMHbmEEH4snSew2TTPZI+SFsY/wudUwK80LbQX9KRLV708vmwevk8hyUT8natox1h0v8TG139CLmHP4BesVMxf2R8Q13yrld7RSQHPHrrZjtG1AcJOceeaNUfqbbcqd2eW8qkdIU79IFsxptGde4xDrDULDryoYIqQGJtyHdoDLSKlDbwEJF8NkqetNjyuwQ5xSyvxWOcBoqdjJNw4GcSLXnD4l6yoYPYo0h+OEF4s9H8sTWnIQ/LVGeeDdKVglm/Q41Q62JpT3TwbUHEhSUtUOSr0OCfGAePYQZimQiwLn4dnUxpD5Kmdk2zdu75Om82aTpukm8pQQUJF4BtnjA6NRRaGMus04f6OKKlWTE8STWItX8pBXw2IU75CGtVr82xV67y8AkRQMiwAAAABJRU5ErkJggg==",
+  icon: "https://banyanlabs.io/wp-content/uploads/2022/09/cropped-BANYAN-LABS-LOGO-2022_FINAL_icon-02-32x32.png",
   iconBg: "#2E3440",
   date: "May 2025 – Present",
   points: [
