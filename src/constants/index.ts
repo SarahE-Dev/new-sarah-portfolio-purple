@@ -112,11 +112,26 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
+  title: "Agile Project Lead & Software Engineer (AI Projects)",
+  companyName: "Banyan Labs",
+  icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAMAAAA2a+hwAAAAhFBMVEUCIl4AFlkADlYAGFoAHlwAE1h7hJ6fprqborZlcJEAAFMnO27KztlqdJMnPG+Ikqu8wtC2vMsPKWMAIF0AGlpfa42Sm7GttsgACVUcNGne4egAAE+pscQAC1Xs7/P///83SXbQ1N0xQ3KKlK0TLWUAAEPz9PZTYIZKWYEAAEpYZIhGVH2iYLLXAAABTklEQVR4AYXRB7aCQAxA0WEKJYiUiRClxN7+/tdnRwd+ewrknEtHPPPkICU+aeMHbmEEH4snSew2TTPZI+SFsY/wudUwK80LbQX9KRLV708vmwevk8hyUT8natox1h0v8TG139CLmHP4BesVMxf2R8Q13yrld7RSQHPHrrZjtG1AcJOceeaNUfqbbcqd2eW8qkdIU79IFsxptGde4xDrDULDryoYIqQGJtyHdoDLSKlDbwEJF8NkqetNjyuwQ5xSyvxWOcBoqdjJNw4GcSLXnD4l6yoYPYo0h+OEF4s9H8sTWnIQ/LVGeeDdKVglm/Q41Q62JpT3TwbUHEhSUtUOSr0OCfGAePYQZimQiwLn4dnUxpD5Kmdk2zdu75Om82aTpukm8pQQUJF4BtnjA6NRRaGMus04f6OKKlWTE8STWItX8pBXw2IU75CGtVr82xV67y8AkRQMiwAAAABJRU5ErkJggg==",
+  iconBg: "#2E3440",
+  date: "May 2025 – Present",
+  points: [
+    "Serve as both project management lead and hands-on software engineer, developing and shipping cutting-edge AI-powered applications.",
+    "Lead Agile ceremonies, sprint planning, and project tracking for multiple concurrent AI initiatives, driving collaboration and on-time delivery.",
+    "Architect and implement intelligent automation agents (MCP) using Next.js, Supabase, and modern AI frameworks.",
+    "Actively contribute code, conduct code reviews, and ensure best practices across full stack development teams.",
+    "Coordinate with AI researchers and cross-functional stakeholders to translate complex requirements into scalable, user-friendly solutions.",
+    "Oversee resource allocation, risk management, and technical decision-making to support project goals and drive continuous improvement."
+    ],
+  },
+  {
     title: "Front End Developer Intern",
     companyName: "UpUnikSelf",
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAMAAAA2a+hwAAAAhFBMVEUCIl4AFlkADlYAGFoAHlwAE1h7hJ6fprqborZlcJEAAFMnO27KztlqdJMnPG+Ikqu8wtC2vMsPKWMAIF0AGlpfa42Sm7GttsgACVUcNGne4egAAE+pscQAC1Xs7/P///83SXbQ1N0xQ3KKlK0TLWUAAEPz9PZTYIZKWYEAAEpYZIhGVH2iYLLXAAABTklEQVR4AYXRB7aCQAxA0WEKJYiUiRClxN7+/tdnRwd+ewrknEtHPPPkICU+aeMHbmEEH4snSew2TTPZI+SFsY/wudUwK80LbQX9KRLV708vmwevk8hyUT8natox1h0v8TG139CLmHP4BesVMxf2R8Q13yrld7RSQHPHrrZjtG1AcJOceeaNUfqbbcqd2eW8qkdIU79IFsxptGde4xDrDULDryoYIqQGJtyHdoDLSKlDbwEJF8NkqetNjyuwQ5xSyvxWOcBoqdjJNw4GcSLXnD4l6yoYPYo0h+OEF4s9H8sTWnIQ/LVGeeDdKVglm/Q41Q62JpT3TwbUHEhSUtUOSr0OCfGAePYQZimQiwLn4dnUxpD5Kmdk2zdu75Om82aTpukm8pQQUJF4BtnjA6NRRaGMus04f6OKKlWTE8STWItX8pBXw2IU75CGtVr82xV67y8AkRQMiwAAAABJRU5ErkJggg==",
     iconBg: "#383E56",
-    date: "September 2024 – Present",
+    date: "September 2024 – March 2025",
     points: [
       "Improved user engagement by 30% through responsive design optimizations for mobile and desktop platforms using React and Tailwind CSS.",
       "Collaborated with a team of 15 developers to build scalable React components, achieving a 95% approval rate from senior developers and stakeholders.",
