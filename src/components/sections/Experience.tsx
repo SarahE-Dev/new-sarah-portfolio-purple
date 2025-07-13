@@ -1,5 +1,5 @@
 import React from "react";
-import { motion, useScroll, useSpring, useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
