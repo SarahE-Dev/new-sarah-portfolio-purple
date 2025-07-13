@@ -295,6 +295,29 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/SarahE-Dev/neonlink", 
     liveDemoLink: "https://neonlink-chi.vercel.app",
   },
+    {
+    name: "Mom's Watchlist App",
+    description:
+      "An app built special for my mom so I can share movie and show recommendations with her. Built with Next.js, TailwindCSS and TMDB API.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tmdb api",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: neonlink, 
+    sourceCodeLink: "https://github.com/SarahE-Dev/moms-watchlist-app", 
+    liveDemoLink: "https://moms-watchlist-app.vercel.app",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
