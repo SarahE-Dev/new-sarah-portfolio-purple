@@ -157,8 +157,11 @@ const experiences: TExperience[] = [
     iconBg: "#383E56",
     date: "September 2024 – Expected: July 2025",
     points: [
-      "Studying full stack development, data science fundamentals, and advanced topics including Artificial Intelligence (AI), MLOps, and serverless computing.",
-      "Participating in real-world projects and gaining hands-on experience in building scalable web applications."
+      "Advanced coursework in full stack development, data science fundamentals, and cutting-edge AI technologies",
+      "Specialized training in Artificial Intelligence (AI), Machine Learning Operations (MLOps), and serverless computing",
+      "Hands-on experience with AI model integration, prompt engineering, and intelligent application development",
+      "Applied machine learning techniques to real-world challenges including housing risk prediction and social impact AI solutions"
+
     ],
   },
   {
