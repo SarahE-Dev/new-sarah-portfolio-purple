@@ -97,16 +97,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
 
 const Experience = () => {
   const ref = React.useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "end end"],
-  });
 
-  const scaleProgress = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-    restDelta: 0.001,
-  });
 
   const isInView = useInView(ref, { margin: "-100px" });
 
