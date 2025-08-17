@@ -27,7 +27,8 @@ import {
   fyretunes,
   articleElevator,
   neonlink,
-  momswatchlist
+  momswatchlist,
+  bloomHousing
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -221,6 +222,28 @@ const testimonials: TTestimonial[] = [
 ];
 
 const projects: TProject[] = [
+   {
+    name: "Bloom Housing Risk Prediction System",
+    description:
+      "An AI/ML risk assessment system developed in partnership with Exygy. Built an XGBoost machine learning model to predict housing instability risk from application data, enabling proactive intervention and resource allocation for individuals at high risk of becoming unhoused.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "xgboost",
+        color: "green-text-gradient",
+      },
+      {
+        name: "machine-learning",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bloomHousing, // You'll need to add this image import
+    sourceCodeLink: "https://github.com/SarahE-Dev/bloom-housing", // Update with actual repo
+    liveDemoLink: "", // Add if there's a demo available
+  },
   {
     name: "Bluezack",
     description:
