@@ -35,6 +35,7 @@ import articleElevator from "./articleelevator.png"
 import wishlist from './wishlist.png'
 import neonlink from './neonlink.png'
 import momswatchlist from './moms-watchlist.png'
+import bloomHousing from './bloomhousing.png'
 
 export {
   logo,
@@ -70,5 +71,6 @@ export {
   articleElevator,
   wishlist,
   neonlink,
-  momswatchlist
+  momswatchlist,
+  bloomHousing
 };
