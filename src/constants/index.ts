@@ -132,12 +132,12 @@ const experiences: TExperience[] = [
   iconBg: "#2E3440",
   date: "May 2025 – Present",
   points: [
-    "Serve as both project management lead and hands-on software engineer, developing and shipping cutting-edge AI-powered applications.",
-    "Lead Agile ceremonies, sprint planning, and project tracking for multiple concurrent AI initiatives, driving collaboration and on-time delivery.",
-    "Architect and implement intelligent automation agents (MCP) using Next.js, Supabase, and modern AI frameworks.",
-    "Actively contribute code, conduct code reviews, and ensure best practices across full stack development teams.",
-    "Coordinate with AI researchers and cross-functional stakeholders to translate complex requirements into scalable, user-friendly solutions.",
-    "Oversee resource allocation, risk management, and technical decision-making to support project goals and drive continuous improvement."
+    "Built an AI voice assistant for client workflows—hands-on coding while guiding a small cross-functional team from prototype to pilot.",
+    "Implemented RAG to use the client's own knowledge, with simple intent routing and short-term memory so answers stay grounded and useful.",
+    "Shipped the assistant as a Next.js + React app with a Supabase vector database; tuned the speech experience to feel quick and natural.",
+    "Worked closely with stakeholders—listened first, turned asks into clear stories, and kept privacy & safety a priority.",
+    "Led technical architecture decisions and code reviews while maintaining hands-on development responsibilities.",
+    "Coordinated project timelines and deliverables across engineering, design, and product teams to ensure successful launches."
     ],
   },
   {
