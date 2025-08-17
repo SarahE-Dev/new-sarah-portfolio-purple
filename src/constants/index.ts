@@ -126,7 +126,7 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-  title: "Agile Project Lead & Software Engineer (AI Projects)",
+  title: "Software Engineer (AI Projects) and Project Lead",
   companyName: "Banyan Labs",
   icon: "https://banyanlabs.io/wp-content/uploads/2022/09/cropped-BANYAN-LABS-LOGO-2022_FINAL_icon-02-32x32.png",
   iconBg: "#2E3440",
